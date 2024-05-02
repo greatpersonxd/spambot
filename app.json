@@ -1,6 +1,6 @@
 {
-    "name": "SHUKLA-SPAM BOT",
-    "logo": "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+    "name": "DOREAMON-SPAM BOT",
+    "logo": "https://graph.org/file/ae3109175996c42aa6d0d.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/SHIVANSH475/SHUKLA-SPAMBOT",
+    "repository": "https://github.com/Greatpersonxd/spambot",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
