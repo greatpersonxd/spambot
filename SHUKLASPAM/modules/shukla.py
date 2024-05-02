@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSONXD
 import asyncio
 
 from random import choice
