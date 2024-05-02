@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSONXD
 import sys
 import heroku3
 
@@ -13,16 +13,16 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id == enums.ChatMemberStatus.ADMINISTRATOR or enums.ChatMemberStatus.OWNER:
         start = datetime.now()
-        altron = await e.reply(f"» ™°‌𝗦 𝗧 𝗥 𝗔 𝗡 𝗚 𝗘 𝗥")
+        altron = await e.reply(f"» 𝐃𝐎𝐑𝐄𝐀𝐌𝐎𝐍")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"💫🥀 🫧 🇸𝗧 𝗥 𝗔 𝗡 𝗚 𝗘 𝗥\n» {mp} 𝙼𝚂")
+        await altron.edit(f"𝐃𝐎𝐑𝐄𝐀𝐌𝐎𝐍\n» {mp} 𝙼𝚂")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"🥀ʀᴇsᴛᴀʀᴛɪɴɢ sᴛʀᴀɴɢᴇʀ ʙᴏᴛs🥀...")
+        await e.reply(f"🥀ʀᴇsᴛᴀʀᴛɪɴɢ ꜱᴘᴀᴍ ʙᴏᴛs🥀...")
         try:
             await X1.disconnect()
         except Exception:
@@ -36,7 +36,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» ᴀᴅᴅɪɴɢ ᴜsᴇʀ ᴀs sᴛʀᴀɴɢᴇʀ 💘sᴜᴅᴏ💘...🚀🚀")
+        ok = await event.reply(f"» ᴀᴅᴅɪɴɢ ᴜsᴇʀ ᴀs ᴅᴏʀᴇᴀᴍᴏɴ 💘sᴜᴅᴏ💘...🚀🚀")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
