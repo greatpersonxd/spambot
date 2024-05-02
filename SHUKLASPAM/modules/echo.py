@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSONXD
 import asyncio
 import base64
 
