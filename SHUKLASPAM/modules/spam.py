@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSONXD
 import asyncio
 from SHUKLASPAM.data import GROUP, PORMS
 from config import X1, SUDO_USERS, CMD_HNDLR as hl
