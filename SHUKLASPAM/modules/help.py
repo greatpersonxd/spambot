@@ -1,10 +1,10 @@
-# © @GREATPERSONXD
+# © @GREATPERSON_XD
 from telethon import events, Button
 
 from config import X1, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @GREATPERSONXD**"
+HELP_STRING = f"★ 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @GREATPERSON_XD**"
 
 HELP_BUTTON = [
     [
@@ -15,7 +15,7 @@ HELP_BUTTON = [
       Button.inline("𝗘𝗫𝗧𝗥𝗔", data="extra")
     ],
     [
-      Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSONXD"),
+      Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSON_XD"),
       Button.inline("𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗", data="shukla")
     ]
   ]
@@ -51,7 +51,7 @@ extra_msg = f"""
   2) {hl}𝚕𝚎𝚊𝚟𝚎 : 𝚃𝚢𝚙𝚎 𝚒𝚗 𝚝𝚑𝚛 𝙶𝚛𝚘𝚞𝚘 𝚋𝚘𝚝 𝚠𝚒𝚕𝚕 𝚊𝚞𝚝𝚘 𝚕𝚎𝚊𝚟𝚎 𝚝𝚑𝚊𝚝 𝚐𝚛𝚘𝚞𝚙 
 
 
-**© @GREATPERSONXD**
+**© @GREATPERSON_XD**
 """
 
 
@@ -87,7 +87,7 @@ raid_msg = f"""
   2) {hl}𝚌𝚛𝚊𝚒𝚍 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @GREATPERSONXD**💘
+**© @GREATPERSON_XD**💘
 """
 
 shukla_msg = f"""
@@ -122,7 +122,7 @@ shukla_msg = f"""
   2) {hl}𝚋𝚜𝚙𝚊𝚖 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @GREATPERSONXD**💘
+**© @GREATPERSON_XD**💘
 """
 
 spam_msg = f"""
@@ -141,7 +141,7 @@ spam_msg = f"""
 💖 𝗔𝗯𝘂𝘀𝗲𝗦𝗽𝗮𝗺: **🌺ᴏɴᴇ ᴡᴏʀᴅ ʙɪɢ ɢᴀᴀʟɪ sᴘᴀᴍ🌺**
   1) {hl}𝚊𝚋𝚞𝚜𝚎 <𝚌𝚘𝚞𝚗𝚝> <𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎>
   
-** © @GREATPERSONXD**
+** © @GREATPERSON_XD**
 """                     
 
 
@@ -158,7 +158,7 @@ async def helpback(event):
                 Button.inline("𝗘𝗫𝗧𝗥𝗔", data="extra")
               ],
               [
-                Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSONXD"),
+                Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSON_XD"),
                 Button.inline("𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗", data="shukla")
               ]
             ]
