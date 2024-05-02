@@ -1,10 +1,10 @@
-# © @SHIVANSH474
+# © @GREATPERSONXD
 from telethon import events, Button
 
 from config import X1, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SHIVANSHDEVS**"
+HELP_STRING = f"★ 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @GREATPERSONXD**"
 
 HELP_BUTTON = [
     [
@@ -15,7 +15,7 @@ HELP_BUTTON = [
       Button.inline("𝗘𝗫𝗧𝗥𝗔", data="extra")
     ],
     [
-      Button.url("𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛", "https://t.me/SHIVANSHDEVS"),
+      Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSONXD"),
       Button.inline("𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗", data="shukla")
     ]
   ]
@@ -25,7 +25,7 @@ HELP_BUTTON = [
 async def help(event):
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/05522e13c97752efe5e75.png",
+              "https://graph.org/file/113daee9d45f8916d554f.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -51,7 +51,7 @@ extra_msg = f"""
   2) {hl}𝚕𝚎𝚊𝚟𝚎 : 𝚃𝚢𝚙𝚎 𝚒𝚗 𝚝𝚑𝚛 𝙶𝚛𝚘𝚞𝚘 𝚋𝚘𝚝 𝚠𝚒𝚕𝚕 𝚊𝚞𝚝𝚘 𝚕𝚎𝚊𝚟𝚎 𝚝𝚑𝚊𝚝 𝚐𝚛𝚘𝚞𝚙 
 
 
-**© @SHIVANSHDEVS**
+**© @GREATPERSONXD**
 """
 
 
@@ -87,7 +87,7 @@ raid_msg = f"""
   2) {hl}𝚌𝚛𝚊𝚒𝚍 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @SHIVANSHDEVS**💘
+**© @GREATPERSONXD**💘
 """
 
 shukla_msg = f"""
@@ -122,7 +122,7 @@ shukla_msg = f"""
   2) {hl}𝚋𝚜𝚙𝚊𝚖 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @SHIVANSHDEVS**💘
+**© @GREATPERSONXD**💘
 """
 
 spam_msg = f"""
@@ -141,7 +141,7 @@ spam_msg = f"""
 💖 𝗔𝗯𝘂𝘀𝗲𝗦𝗽𝗮𝗺: **🌺ᴏɴᴇ ᴡᴏʀᴅ ʙɪɢ ɢᴀᴀʟɪ sᴘᴀᴍ🌺**
   1) {hl}𝚊𝚋𝚞𝚜𝚎 <𝚌𝚘𝚞𝚗𝚝> <𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎>
   
-** © @SHIVANSHDEVS**
+** © @GREATPERSONXD**
 """                     
 
 
@@ -158,7 +158,7 @@ async def helpback(event):
                 Button.inline("𝗘𝗫𝗧𝗥𝗔", data="extra")
               ],
               [
-                Button.url("𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛", "https://t.me/SHIVANSHDEVS"),
+                Button.url("𝗢𝗪𝗡𝗘𝗥", "https://t.me/GREATPERSONXD"),
                 Button.inline("𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗", data="shukla")
               ]
             ]
