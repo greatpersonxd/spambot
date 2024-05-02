@@ -61,7 +61,7 @@ async def spam(event: events):
 async def pspam(event):
     if event.sender_id == enums.ChatMemberStatus.ADMINISTRATOR or enums.ChatMemberStatus.OWNER:
         if event.chat_id in GROUP:
-            await event.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ™°‌𝐒 𝐓 𝐑 𝐀 𝐍 𝐆 𝐄 𝐑 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+            await event.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ™°‌𝐃𝐎𝐑𝐄𝐀𝐌𝐎𝐍 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         else:
             try:
                 counter = int(event.text.split(" ", 2)[1])
@@ -80,7 +80,7 @@ async def pspam(event):
 async def hang(e):
     if e.sender_id == enums.ChatMemberStatus.ADMINISTRATOR or enums.ChatMemberStatus.OWNER:
         if e.chat_id in GROUP:
-            await e.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ™°‌𝐒 𝐓 𝐑 𝐀 𝐍 𝐆 𝐄 𝐑 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+            await e.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ ™°‌𝐃𝐎𝐑𝐄𝐀𝐌𝐎𝐍 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         else:
             try:
                 counter = int(e.text.split(" ", 2)[1])
