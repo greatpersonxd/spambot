@@ -21,7 +21,7 @@ HELP_BUTTON = [
   ]
 
 
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%shhelp(?: |$)(.*)" % hl))
 async def help(event):
         try:
           await event.client.send_file(event.chat_id,
