@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSON_XD
 from config import X1, SUDO_USERS, CMD_HNDLR as hl
 
 from telethon import events
