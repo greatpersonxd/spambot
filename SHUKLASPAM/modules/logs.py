@@ -1,4 +1,4 @@
-# © @SHIVANSH474
+# © @GREATPERSON_XD
 import asyncio
 import heroku3
 
@@ -34,7 +34,7 @@ async def logs(legend):
         fetch = await legend.reply(f"✦ Fetching Logs...")
     
         with open("SHUKLASPAMLogs.txt", "w") as logfile:
-            logfile.write("✦ SHUKLASPAM ⚡ [ Bot Logs ]\n\n" + logs)
+            logfile.write("✦ SPAMBOT ⚡ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
