@@ -29,7 +29,7 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
         
 
-print("♥︎Shukla spam Bot Deployed Successfully.")
+print("♥︎Doreamon spam Bot Deployed Successfully.")
 
 
 async def main():
