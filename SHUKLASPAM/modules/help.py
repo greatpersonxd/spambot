@@ -21,11 +21,11 @@ HELP_BUTTON = [
   ]
 
 
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%shhelp(?: |$)(.*)" % hl))
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
 async def help(event):
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/113daee9d45f8916d554f.jpg",
+              "https://telegra.ph/file/1fbfcd39ef25dd99fb5b7.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
