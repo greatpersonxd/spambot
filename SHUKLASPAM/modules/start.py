@@ -6,7 +6,7 @@ from config import X1
 
 START_BUTTON = [
     [
-        Button.url("𝗔𝗗𝗗 𝗠𝗘 𝗕𝗔𝗕𝗬", "https://t.me/DOREAMON_ro_bot?startgroup=true")
+        Button.url("𝗔𝗗𝗗 𝗠𝗘 𝗕𝗔𝗕𝗬", "https://t.me/{BOT_USERNAME}?startgroup=true")
     ],
     [
         Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/THE_INCRICIBLE"),
