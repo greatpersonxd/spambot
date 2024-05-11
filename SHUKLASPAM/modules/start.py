@@ -18,7 +18,7 @@ START_BUTTON = [
 ]
 
 
-@X1.on(events.NewMessage(pattern="/sstart"))
+@X1.on(events.NewMessage(pattern="/start"))
 async def start(event):
     if event.is_private:
         AltBot = await event.client.get_me()
@@ -27,7 +27,7 @@ async def start(event):
         TEXT = f"**•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n❍ 𝗛𝗘𝗬 ‣ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n❍ 𝗜 𝗔𝗠 ‣ [{bot_name}](tg://user?id={bot_id})\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n● ɪ ᴀᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀғᴜʟ sᴘᴀᴍ ʙᴏᴛ ●\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n⊚ ᴜɴʟɪᴍɪᴛᴇᴅ ʀᴀɪᴅ\n⊚ ᴜɴʟɪᴍɪᴛᴇᴅ sᴘᴀᴍ \n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•\n⦿ 24x7 ʀᴜɴ|[ɢʀᴇᴀᴛᴘᴇʀꜱᴏɴ](https://t.me/GREATPERSON_XD)\n•┈┈─┈┈─┈┈─┈┈─┈┈─┈┈─┈┈•**"
         await event.client.send_file(
             event.chat_id,
-            "https://graph.org/file/113daee9d45f8916d554f.jpg",
+            "https://telegra.ph/file/1fbfcd39ef25dd99fb5b7.jpg",
             caption=TEXT,
             buttons=START_BUTTON
         )
