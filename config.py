@@ -21,10 +21,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 BOT_TOKEN = getenv("BOT_TOKEN", default=None)
 
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5730490876").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="7520092354").split()))
 for x in SHASHANK:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="5730490876"))
+OWNER_ID = int(getenv("OWNER_ID", default="7520092354"))
 SUDO_USERS.append(OWNER_ID)
 
 
